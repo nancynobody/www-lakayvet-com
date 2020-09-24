@@ -1,0 +1,23 @@
+{
+  "app" :
+  {
+    "test": ""
+  },
+  "database" :
+  {
+    "url": ""
+  },
+  "mail" :
+  {
+    "user": "info@lakayvet.com",
+    "clientId": "",
+    "clientSecret": "",
+    "refreshToken": "",
+    "accessToken": ""
+  },
+  "logger" :
+  {
+    "fileLevel": "info",
+    "papertrailLevel" : "error"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "lakay_vet_website",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Lakay Vèt Dev Team"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "lakay",
+    "vet",
+    "website"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}

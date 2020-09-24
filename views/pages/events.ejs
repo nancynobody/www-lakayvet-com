@@ -1,0 +1,30 @@
+<html lang="en">
+<!DOCTYPE html>
+
+<head>
+<% include ../partials/header %>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <% include ../partials/nav %>
+    <%- req.toastr.render() %>
+
+    <!-- Join Us Section -->
+    <section id="join" class="container content-section text-center">
+        <div class="container">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Events</h2>
+                <h4>Public Workshops &amp; Events</h4>
+            </div>
+            <div class="col-lg-12 text-center" style="background:rgba(255,255,255,.9);border-radius:8px;padding:20 0 20 0px">
+                <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=lakayvet.com_9pjig5v3fncfnoqh75hll21c5g%40group.calendar.google.com&amp;color=%2342104A&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="800" height="600" frameborder="20px" scrolling="no"></iframe>
+            </div>
+        </div>
+        <br><br>
+    </section>
+
+    <% include ../partials/footer %>
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+/*[data-slides] {
+	background-image: url(../img/bg/intro-bg-2.jpg); /* Default image. */
+	/*background-repeat: no-repeat;*/
+	/*background-position: center top;*/
+	/*background-position: center bottom;
+	background-size: cover;*/
+	/*transition: background-image 2s linear;*/
+	/*transition: background-image 3s ease-in-out;*/
+/*}*/
+
+[data-slides] {
+	background-image: url(../dist/img/bg/intro-bg-2.jpg); /* Default image. */
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+	-webkit-transition: all 0.7s ease;
+	-moz-transition: all 0.7s ease;
+	-ms-transition: all 0.7s ease;
+	-o-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}

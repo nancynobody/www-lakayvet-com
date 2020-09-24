@@ -1,0 +1,57 @@
+<!-- RESERVE SHARES FORM -->
+<form id="newReservationForm" method="POST" role="form" class="form-horizontal">
+
+  <!-- FIRST & LAST NAME -->
+  <div class="form-group">
+    <div id="first_name" class="col-md-6">
+      <input name="first_name" type="text" placeholder="First Name*" class="form-control">
+      <span class="glyphicon glyphicon-remove form-control-feedback hide"></span>
+      <span class="help-block text-danger"><sm></sm></span>
+    </div>
+      <div id="last_name" class="col-md-6">
+        <input name="last_name" type="text" placeholder="Last Name*" class="form-control">
+        <span class="glyphicon glyphicon-remove form-control-feedback hide"></span>
+        <span class="help-block text-danger"><sm></sm></span>
+      </div>
+  </div>
+
+  <!-- EMAIL & PHONE -->
+  <div class="form-group">
+    <div id="email" class="col-md-6">
+      <input name="email" type="text" placeholder="Email*" class="form-control">
+      <span class="glyphicon glyphicon-remove form-control-feedback hide"></span>
+      <span class="help-block text-danger"><sm></sm></span>
+    </div>
+    <div id="phone" class="col-md-6">
+      <input name="phone" type="text" placeholder="Phone" class="form-control">
+      <span class="glyphicon glyphicon-remove form-control-feedback hide"></span>
+      <span class="help-block text-danger"><sm></sm></span>
+    </div>
+  </div>
+
+  <!-- AMOUNT -->
+  <div class="form-group">
+      <div id="amount" class="col-md-6 col-md-offset-3">
+          <div class="input-group">
+            <div class="input-group-addon">$</div>
+              <input name="amount" type="text" class="form-control" placeholder="Amount*" required data-validation-required-message="blablabal">
+            <div class="input-group-addon">.00</div>
+          </div>
+      </div>
+  </div>
+  <div class="col-md-6 col-md-offset-3">
+      <div class="g-recaptcha" data-sitekey="6LdYfCgUAAAAAMOGY4u4U-S50YvQnSQlpNiRFhSn"></div>
+  </div>
+  <div class="col-lg-12 text-center">
+      <br><p style="font-size:12px;"><i><%=__('form').disclaimer%></i></p>
+  </div>
+
+  <div class="clearfix"></div>
+
+  <!-- SUBMIT BUTTON -->
+  <div class="col-lg-12 text-center">
+      <button id="submit" type="submit" class="btn btn-xl"><%=__('button').reserve%></button>
+      <!--<img class="ajaxLoader" style="display:none;" src="./img/loading.gif">-->
+  </div>
+</form>
+<script type="text/javascript" src="./js/form_handler.js"></script>

@@ -1,0 +1,8 @@
+{
+  "name": "Lakay Vèt Heroku App",
+  "description": "A node js express web application",
+  "repository": "https://bitbucket.org/lakayvet",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}

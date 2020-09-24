@@ -1,0 +1,119 @@
+<html lang="en">
+<!DOCTYPE html>
+
+<head>
+<% include ../partials/header %>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <% include ../partials/nav %>
+    <%- req.toastr.render() %>
+
+    <!-- Intro Header -->
+    <header class="intro" data-slides='["/dist/img/bg/intro-bg-1.jpg"]'>
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+
+                      <h2 class="section-subheading">Sustainable Resource Management</h2>
+
+                      <h4 class="section-subheading">Island-Centric  Solutions</h4>
+
+                      <a href="#who_we_are" class="btn btn-circle page-scroll">
+                          <i class="fa fa-angle-double-down animated"></i>
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Who We Are -->
+    <section id="who_we_are" style="text-align:justify" class="container content-section">
+        <div class="container">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2>Who We Are</h2>
+            </div>
+
+            <!-- About Us -->
+            <div class="col-lg-12" style="color:rgb(255,255,255);font-family:Montserrat;font-size:12px;background:rgba(0,0,0);border-radius:8px;">
+              <p>Lakay Vèt provides products and services that allow island nations to achieve economic and ecological prosperity by sustainably managing local resources.</p>
+              </br>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <p>At Lakay Vèt, we treat waste as a resource. Our waste processing systems are not only modular and scalable but they also use a combination of anerobic biodigestion and recycling technologies that allow our customers to profit from resources traditionally wasted. With these systems, small island nations can effectively manage waste domestically as an economic and ecological resource instead of exporting it or letting it damage the environment.</p>
+                </div>
+                <div class="col-md-6">
+                  <img src="/dist/img/island-trash-1.jpg" alt="island-trash" title="island-trash"/>
+                </div>
+              </div>
+
+              </br>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Products and Services Section -->
+    <section id="products_and_services" class="container content-section text-center">
+        <div class="container">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Products and Services</h2>
+            </div>
+        </div>
+
+        <div class="container">
+
+          <div class="row text-center">
+            <div class="col-md-6">
+              <span class="fa-stack fa-4x">
+                  <img src="/dist/img/organics_recycling.png" alt="organics" title="organics">
+              </span>
+                <h4 class="service-heading">Organics Recycling</h4>
+              <p class="text-muted">Each of our modular biodigester units turn organic waste materials into biofertilizer and biogas. These byproducts can be sold domestically to improve agricultural yield and provide fuel for cooking or electricity for microgrid systems.</p>
+            </div>
+            <div class="col-md-6">
+              <span class="fa-stack fa-4x">
+                <img src="/dist/img/non-organics_recycling.png" alt="non-organics" title="non-organics">
+              </span>
+                <h4 class="service-heading">Non-Organics Recycling</h4>
+              <p class="text-muted">Our non-organics recycling units are designed to create easily workable raw materials that again can be worked into new products and sold domestically.</p>
+            </div>
+          </div>
+
+            <br><br><br>
+
+            <div class="row text-center">
+              <div class="col-md-6">
+                <span class="fa-stack fa-4x">
+                    <img src="/dist/img/contracting.png" alt="contracting" title="contracting">
+                </span>
+                <h4 class="service-heading">Contracting</h4>
+                <p class="text-muted">We design, build and implement sustainable resource management solutions that are appropriate technologically, infrastructurally and socially for each customer.</p>
+              </div>
+              <div class="col-md-6">
+                    <span class="fa-stack fa-4x">
+                        <img src="/dist/img/feasibility_assessments.png" alt="feasibility assessments" title="feasibility assessments">
+                    </span>
+                    <h4 class="service-heading">Feasibility Assessments</h4>
+                    <p class="text-muted">We provide feasibility assessments for resource management including the testing and analysis of resource production potential.</p>
+              </div>
+            </div>
+
+            <div class="row" style="font-family: Montserrat;padding-top:50px;">
+                <div class="col-lg-12 text-center">
+                  <h6><a target="_blank" href="mailto:info@lakayvet.com">Please submit RFP's and quote requests to info@lakayvet.com</a></h6>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <% include ../partials/footer %>
+
+</body>
+
+</html>
